@@ -231,6 +231,10 @@ main {
 
 /* ---- attach card (quiz / laboratory / exams) ---- */
 .attach-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
   border: 1px solid var(--line);
   background: #ffffff;
   border-radius: 4px;
